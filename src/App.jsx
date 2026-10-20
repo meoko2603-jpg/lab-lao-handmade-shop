@@ -7,6 +7,7 @@ import CartPanel from "./components/CartPanel.jsx";
 
 function App() {
   
+  
   const [cart, setCart] = useState([]);
 
   function addToCart(product) {
